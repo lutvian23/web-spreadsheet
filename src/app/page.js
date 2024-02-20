@@ -69,7 +69,7 @@ export default function Home() {
         </div>
         <div className=" max-w-5xl mx-auto">
           <form onSubmit={formSubmit} className="flex flex-col items-center justify-center h-[80vh]">
-          <h1 className="text-center font-bold">Pesan</h1>
+          <h1 className="text-center text-black font-bold">Pesan</h1>
             <div className='flex flex-col gap-[15px]'>
               <input autoComplete='false' value={name} onChange={e => setName(e.target.value)} type="text" name="name" id="name" className="shadow-md p-2 block w-[340px] sm:text-md border-gray-300 rounded-md" placeholder="siapa lu ?" />
               <input autoComplete='false' value={message} onChange={e => setMessage(e.target.value)} type="text" name="message" id="message" className="shadow-md p-2 block w-[340px] sm:text-md border-gray-300 rounded-md" placeholder="pesan apa nih" />
