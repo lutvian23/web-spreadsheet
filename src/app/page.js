@@ -28,7 +28,7 @@ export default function Home() {
         return
       }
 
-      const kataToxic = ["tai","anjing","bangsat","kontol","memek","jancok","asu","kntl","ajg","benget sia","babi","ibab","mmk"]
+      const kataToxic = ["monyet","benget","tai","anjing","bangsat","kontol","memek","jancok","asu","kntl","ajg","benget sia","babi","ibab","mmk"]
       // callback
       const ceckName = kataToxic.some(cekname => name.includes(cekname))
       const ceckMessage = kataToxic.some(cekmessage => message.includes(cekmessage))
