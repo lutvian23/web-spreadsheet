@@ -71,7 +71,7 @@ export default function Home() {
           <form onSubmit={formSubmit} className="flex flex-col items-center justify-center h-[80vh]">
           <h1 className="text-center text-black font-bold">Pesan</h1>
             <div className='flex flex-col gap-[15px]'>
-              <input autoComplete='false' value={name} onChange={e => setName(e.target.value)} type="text" name="name" id="name" className="shadow-md p-2 block w-[340px] sm:text-md border-gray-300 rounded-md" placeholder="siapa lu ?" />
+              <input autoComplete='false' value={name} onChange={e => setName(e.target.value)} type="text" name="name" id="name" className="shadow-md p-2 block w-[340px] sm:text-md border-gray-300 rounded-md" placeholder="dengan siapa ?" />
               <input autoComplete='false' value={message} onChange={e => setMessage(e.target.value)} type="text" name="message" id="message" className="shadow-md p-2 block w-[340px] sm:text-md border-gray-300 rounded-md" placeholder="pesan apa nih" />
               {load ? (<button type="button" className="w-[340px] rounded-md py-2 bg-gray-500 text-white cursor-not-allowed" disabled>sebentar ye....</button>):(<button type="submit" className="w-[340px] rounded-md py-2 bg-blue-500 text-white transition ease-in-out duration-300 hover:bg-blue-700 hover:scale-95">Kirim</button>)}
             </div>
